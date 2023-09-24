@@ -33,3 +33,6 @@ set fileencoding=utf-8
 
 nnoremap H gT
 nnoremap L gt
+
+syntax on
+filetype plugin indent on

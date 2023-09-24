@@ -1,0 +1,6 @@
+[submodule "pack/python/jedi-vim"]
+	path = pack/python/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "pack/python/vim-flake8"]
+	path = pack/python/vim-flake8
+	url = https://github.com/nvie/vim-flake8.git
