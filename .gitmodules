@@ -1,6 +1,9 @@
 [submodule "pack/python/start/jedi-vim"]
 	path = pack/python/start/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
-[submodule "pack/python/start/vim-flake8"]
-	path = pack/python/start/vim-flake8
-	url = https://github.com/nvie/vim-flake8.git
+[submodule "pack/other/start/hexmode"]
+	path = pack/other/start/hexmode
+	url = https://github.com/fidian/hexmode.git
+[submodule "pack/other/start/ale"]
+	path = pack/other/start/ale
+	url = https://github.com/dense-analysis/ale.git
