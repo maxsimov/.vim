@@ -7,3 +7,21 @@
 [submodule "pack/other/start/ale"]
 	path = pack/other/start/ale
 	url = https://github.com/dense-analysis/ale.git
+[submodule "pack/other/start/lightline"]
+	path = pack/other/start/lightline
+	url = https://github.com/itchyny/lightline.vim
+[submodule "pack/other/opt/onedark.vim"]
+	path = pack/other/opt/onedark.vim
+	url = https://github.com/joshdick/onedark.vim.git
+[submodule "pack/other/start/vim-polyglot"]
+	path = pack/other/start/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot
+[submodule "pack/other/start/vim-chatgpt"]
+	path = pack/other/start/vim-chatgpt
+	url = https://github.com/CoderCookE/vim-chatgpt.git
+[submodule "pack/other/start/vim-gutentags"]
+	path = pack/other/start/vim-gutentags
+	url = https://github.com/ludovicchabant/vim-gutentags.git
+[submodule "pack/other/start/undotree"]
+	path = pack/other/start/undotree
+	url = https://github.com/mbbill/undotree.git
