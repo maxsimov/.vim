@@ -25,3 +25,6 @@
 [submodule "pack/other/start/undotree"]
 	path = pack/other/start/undotree
 	url = https://github.com/mbbill/undotree.git
+[submodule "pack/other/start/fzf"]
+	path = pack/other/start/fzf
+	url = https://github.com/junegunn/fzf.git

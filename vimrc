@@ -63,8 +63,8 @@ let g:ale_fixers['*'] =  ['remove_trailing_lines', 'trim_whitespace']
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 autocmd FileType python match OverLength /\%>88v.\+/
 
-let g:ale_linters['python'] = ['black', 'flake8',  'pylint',  'ruff']
-let g:ale_fixers['python'] =  ['remove_trailing_lines', 'trim_whitespace', 'black', 'pyflyby', 'reorder-python-imports', 'autoflake']
+let g:ale_linters['python'] = ['flake8',   'ruff']
+let g:ale_fixers['python'] =  ['remove_trailing_lines', 'trim_whitespace', 'pyflyby', 'black']
 
 " ******* Open AI
 let g:chat_gpt_max_tokens=2000
@@ -82,8 +82,14 @@ let g:chat_gpt_split_direction = 'vertical'
 "nnoremap [q :cprev<CR>
 " JEDI
 
+let g:jedi#popup_on_dot = 1
+let g:jedi#goto_command = "<leader>g"
+let g:jedi#goto_assignments_command = "<leader>a"
+let g:jedi#goto_definitions_command = "<leader>d"
+let g:jedi#documentation_command = "K"
 let g:jedi#usages_command = "<leader>u"
-
-
+let g:jedi#completions_command = "<C-Space>"
+let g:jedi#rename_command = "<leader>r"
+let g:jedi#show_call_signatures = "2"
 nnoremap <silent> <leader>n :ALENextWrap<CR>
 nnoremap <silent> <leader>p :ALEPreviousWrap<CR>
