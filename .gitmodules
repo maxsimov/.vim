@@ -28,3 +28,9 @@
 [submodule "pack/other/start/bufexplorer"]
 	path = pack/other/start/bufexplorer
 	url = https://github.com/jlanzarotta/bufexplorer.git
+[submodule "pack/other/start/fzf"]
+	path = pack/other/start/fzf
+	url = https://github.com/junegunn/fzf.git
+[submodule "pack/other/start/fzf.vim"]
+	path = pack/other/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git

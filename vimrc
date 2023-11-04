@@ -49,8 +49,9 @@ let mapleader = ","
 nnoremap H gT
 nnoremap L gt
 
-nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:b#<CR>
-
+nnoremap <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:b#<CR>
+nnoremap <silent>   <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:Buffers<CR>
+nnoremap <silent> <C-f> :Files<CR>
 "*****************************
 "************* ALE ***********
 let g:ale_fix_on_save = 1

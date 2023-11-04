@@ -1,7 +1,7 @@
 #! /bin/bash
 apt install pip
 apt install universal-ctags
-apt install fzf
+apt install bat
 pip install openai
 pip install jedi
 pip install black
